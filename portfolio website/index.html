@@ -129,30 +129,33 @@
     </div>
 
     </section>
-    <section class="contact" id="contact">
+        <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
-        <form action="">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="0f40533a-7f20-4e52-94a8-4e26110b77d1">
             <div class="input-group">
                 <div class="input-box">
                     <input type="text"
-                    placeholder="Full Name">
+                    placeholder="Full Name" name="name" required>
                     <input type="email"
-                    placeholder="Email">
+                    placeholder="Email" name="email" required>
                 </div>
                 <div class="input-box">
                     <input type="number"
-                    placeholder="Phone Number">
+                    placeholder="Phone Number" name="number" required>
                     <input type="text"
-                    placeholder="Subject">
+                    placeholder="Subject" name="subject" required>
                 </div>
             </div>
             <div class="input-group">
                 <textarea name="" id="" cols="30" rows="10" 
-                placeholder="Your Message"></textarea>
+                placeholder="Your Message" name="message" required></textarea>
+                <input type="hidden" name="redirect" value="https://web3forms.com/success">
                 <input type="submit" value="Send Message" class="btn">
             </div>
         </form>
     </section>
+
     <footer class="footer">
         <div class="social">
             <a href="https://www.linkedin.com/in/abhinav-jain-7a9754247/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
