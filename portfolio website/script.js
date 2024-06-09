@@ -1,6 +1,6 @@
 let menuIcon=document.querySelector('#menu-icon');
 let navbar=documaenrt
-let words = document.querySelectorAll(".word");
+/*let words = document.querySelectorAll(".word");
 words.forEach((word)=>{
     let letters = word.textContent.split("");
     word.textContent="";
@@ -134,4 +134,4 @@ window.onscroll= ()=>{
  scrollBottom.forEach((el)=>observer.observe(el));
 
  const scrollTop = document.querySelectorAll(".scroll-top");
- scrollTop.forEach((el)=>observer.observe(el));
+ scrollTop.forEach((el)=>observer.observe(el));*/
