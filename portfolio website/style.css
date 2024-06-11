@@ -74,6 +74,22 @@ body{
 
 
 
+
+.navbar.active {
+    display:block;
+    background-color: var(--bg-color);
+    backdrop-filter: blur(50px);
+}
+.navbar a.active {
+    
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: 0.3 ease;
+    border-bottom: 3px solid transparent;
+}
+
 .navbar a{
     font-size: 2rem;
     font-weight: 600;
@@ -92,7 +108,15 @@ body{
     transition: 0.3 ease;
     border-bottom: 3px solid transparent;
 }
-
+.navbar button.active{
+    background-color: transparent;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: 0.3 ease;
+    border-bottom: 3px solid transparent;
+}
 .navbar a:hover{
     color: var(--main-color);
     border: var(--text-color);
