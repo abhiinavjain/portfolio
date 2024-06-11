@@ -720,3 +720,11 @@ span{
     }
 
 }
+
+@media(max-width:600px){
+    .service-info  a{
+        
+        width: 250px;
+    }
+
+}
